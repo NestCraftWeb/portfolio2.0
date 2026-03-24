@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevated Vision | Antigravity Design</title>
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Environment Background (Bokeh/Ethereal Lights) -->
+    <div class="ethereal-bg">
+        <div class="light-orb indigo"></div>
+        <div class="light-orb silver"></div>
+        <div class="light-orb violet"></div>
+    </div>
+
+    <!-- Floating Background Shapes (Far Z-Axis) -->
+    <div class="parallax-layer" data-depth="0.1">
+        <div class="crystalline-shape shape-1" style="top: 10%; left: 15%;"></div>
+        <div class="crystalline-shape shape-2" style="top: 70%; right: 10%;"></div>
+        <div class="crystalline-shape shape-3" style="top: 40%; left: 80%;"></div>
+    </div>
+
+    <!-- Main Content Layer (Mid Z-Axis) -->
+    <main class="parallax-layer main-content" data-depth="0.3">
+        <h1 class="hero-title">Elevated Vision</h1>
+        <p class="hero-subtitle">Engineering the future of immersive digital experiences.</p>
+        
+        <div class="cta-wrapper">
+            <button class="primary-btn">Enter the Void</button>
+        </div>
+    </main>
+
+    <!-- Foreground Floating Glass Cards (Near Z-Axis) -->
+    <div class="parallax-layer" data-depth="0.6">
+        <!-- Card 1 -->
+        <article class="glass-card card-left" style="top: 20%; left: 10%;">
+            <div class="card-icon">✧</div>
+            <h2>Quantum Engineering</h2>
+            <p>Developing hyper-optimized architectural systems.</p>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="glass-card card-right" style="top: 60%; right: 10%;">
+            <div class="card-icon">◇</div>
+            <h2>Ethereal Design</h2>
+            <p>Crafting luminous, glassmorphic interfaces that defy gravity.</p>
+        </article>
+        
+        <!-- Card 3 -->
+        <article class="glass-card card-center" style="top: 75%; left: 30%;">
+            <div class="card-icon">⟡</div>
+            <h2>Absolute Precision</h2>
+            <p>Pixel-perfect implementation with unmatched fidelity.</p>
+        </article>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
